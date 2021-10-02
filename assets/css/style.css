@@ -181,6 +181,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-size: 13px;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .buy-tickets:hover {
@@ -598,6 +599,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #f82249;
+  text-decoration: none;
 }
 
 #hero .about-btn:hover {
