@@ -7232,6 +7232,10 @@ span.rec-by {
   text-align: center;
   transition: background 0.4s ease 0s;
   cursor: pointer; }
+  .text-box span {
+    color: #fff;
+    transition: all 0.4s ease 0s;
+  }
   .text-box i {
     font-size: 42px;
     margin: 30px 0 20px; }
@@ -7247,6 +7251,7 @@ span.rec-by {
     .text-box:hover i,
     .text-box:hover h3,
     .text-box:hover h5,
+    .text-box:hover span,
     .text-box:hover p {
       color: #333; }
   .text-box.icon-boxx-light {
@@ -7273,6 +7278,8 @@ span.rec-by {
     .text-box.hover-effect:hover i {
       margin: 70px 0 6px 0; }
     .text-box.hover-effect:hover p {
+      opacity: 1; }
+    .text-box.hover-effect:hover span {
       opacity: 1; }
 
 /* ----------------------------------------------------------------
@@ -13650,3 +13657,7 @@ body.device-xs .col-md-3 .flickr-widget img {
 
 /*# sourceMappingURL=colors.css.map */
 
+.arrow-chevron:hover
+{
+  color: #000000;
+}
