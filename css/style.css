@@ -161,6 +161,17 @@ a:active {
 html {
   overflow-x: hidden; }
 
+  /* hide scrollbar */
+  html::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
 /* Layout boxed & wide */
 @media (max-width: 479px) {
   .container {
